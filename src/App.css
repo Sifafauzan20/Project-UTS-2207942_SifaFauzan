@@ -1,0 +1,172 @@
+@font-face {
+  font-family: calligraphy;
+  src: url(/public/spacetime-regular.ttf);
+}
+
+.nav{
+  background-color: #fff;
+  color: #40DFEF;
+  display: flex;
+  border-bottom: 2px solid #40DFEF;
+}
+
+.head{
+  font-family: Calligraphy;
+  font-size: 20px;
+  padding: 15px 38% 0 7%;
+}
+
+.nav a{
+  text-decoration: none;
+  color: #008170;
+  margin: 20px 15px;
+  font-size: 25px;
+  font-family: eduardo tunni;
+}
+
+.nav a:hover{
+  border-radius: 10%;
+  background-color: rgba(0, 255, 162, 0.5);
+}
+
+.flex-shrink-0{
+  background-color: #fff;
+  padding-bottom: 10%;
+  display: flex;
+  margin: 30px 20% 30px 25%;
+}
+
+.container img{
+  width: 400px;
+  height: auto;
+  border-radius: 10%;
+}
+
+.containers{
+  font-family: cursive;
+  text-align: center;
+  font-size: 20px;
+  color: #008170;
+}
+
+.containers h1{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 250px;
+  margin-top: 0;
+  margin-bottom: -40px;
+}
+
+.Container2 h1{
+  font-family: calligraphy;
+}
+
+.Container2{
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 20px 20% 5% 20%;
+  color: #fff;
+  background-color: #008170;
+}
+
+.Container2 img{
+  margin: auto;
+  width: 250px;
+  height: auto;
+  margin-right: 20px;
+  padding-top: 10px;
+  border-radius: 10%;
+}
+
+.flex{
+  background-color: #008170;
+  padding-bottom: 5%;
+}
+
+.judul{
+  margin: 0 auto;
+  font-family: Calligraphy;
+  padding: 2% 40% 5% 40%;
+  color: #fff;
+}
+
+.alamat{
+  padding: 20px 300px 20px 18%;
+  margin-top: -30px;
+  color: white;
+}
+
+.alamat h3{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.alamat p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color : #0F0F0F;
+}
+
+.container1 {
+  max-width: 300px;
+}
+
+.flex-shrink-10{
+  display: flex;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  border-radius: .5rem;
+  padding-right: 10px;
+}
+
+input,
+textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+textarea{
+  height: 100px;
+}
+
+.formBtn {
+  background-color: white;
+  color: #008170;
+  border: none;
+  cursor: pointer;
+}
+
+.formBtn:hover {
+  background-color: #fff;
+}
+
+.judulG {
+  text-align: center;
+  font-family: Calligraphy;
+  font-size: 50px;
+  margin : 5px 0 10px 0;
+  color: #008170;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 5px;
+  padding-left: 0%;
+}
+.grid-item {
+  padding: 5px;
+  text-align: center;
+}
+
+.grid-item img{
+  width: 400px;
+  height: auto;
+}
+
+.more{
+  padding-left: 50%;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: #008170;
+}
