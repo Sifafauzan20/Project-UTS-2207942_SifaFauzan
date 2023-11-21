@@ -4,10 +4,10 @@
 }
 
 .nav{
-  background-color: #fff;
-  color: #008170;
+  background-color: #176B87;
+  color: #64CCC5;
   display: flex;
-  border-bottom: 2px solid #008170;
+  border-bottom: 2px solid #176B87;
 }
 
 .head{
@@ -18,7 +18,7 @@
 
 .nav a{
   text-decoration: none;
-  color: #008170;
+  color: #64CCC5;
   margin: 20px 15px;
   font-size: 25px;
   font-family: eduardo tunni;
@@ -26,33 +26,38 @@
 
 .nav a:hover{
   border-radius: 10%;
-  background-color: rgba(0, 255, 162, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .flex-shrink-0{
-  background-color: #fff;
+  background-image: url(https://media.istockphoto.com/id/1273852653/photo/old-scratched-film-strip-grunge-texture-background.jpg?b=1&s=612x612&w=0&k=20&c=SKO6OxZptuShEnwUWdHOqDAzIVI1VjSy-rX23JLPphI=);
   padding-bottom: 10%;
   display: flex;
-  margin: 30px 20% 30px 25%;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover ;
 }
 
 .container img{
   width: 400px;
   height: auto;
   border-radius: 10%;
+  margin-left: 70%;
+  margin-top: 10%;
 }
 
 .containers{
   font-family: cursive;
   text-align: center;
   font-size: 20px;
-  color: #008170;
+  color: #64CCC5;
+  margin-left: 350px;
 }
 
 .containers h1{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 250px;
-  margin-top: 0;
+  font-size: 150px;
+  margin-top: 12s0px;
   margin-bottom: -40px;
 }
 
@@ -63,9 +68,10 @@
 .Container2{
   text-align: center;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  padding: 20px 20% 5% 20%;
-  color: #fff;
-  background-color: #008170;
+  padding: 20px 20% 10% 20%;
+  color: #64CCC5;
+  background-image: url(https://media.istockphoto.com/id/1318101781/photo/stone-black-texture-background-dark-cement-wall.jpg?b=1&s=612x612&w=0&k=20&c=q78Kmxc_bQOGkr3M7GuL7_TfsLCV5QROUI561Lq3UiE=);
+  background-size: cover;
 }
 
 .Container2 img{
@@ -77,22 +83,18 @@
   border-radius: 10%;
 }
 
-.flex{
-  background-color: #008170;
-  padding-bottom: 5%;
-}
 
 .judul{
   margin: 0 auto;
   font-family: Calligraphy;
   padding: 2% 40% 5% 40%;
-  color: #fff;
+  color: #176B87  ;
 }
 
 .alamat{
   padding: 20px 300px 20px 18%;
   margin-top: -30px;
-  color: white;
+  color: #176B87;
 }
 
 .alamat h3{
@@ -101,7 +103,7 @@
 
 .alamat p{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color : #0F0F0F;
+  color : #176B87;
 }
 
 .container1 {
@@ -123,6 +125,7 @@ input,
 textarea {
   margin-bottom: 10px;
   padding: 8px;
+  background-color: white;
 }
 
 textarea{
@@ -131,13 +134,13 @@ textarea{
 
 .formBtn {
   background-color: white;
-  color: #008170;
-  border: none;
+  color: #176B87;
+  border: 2px solid #176B87;
   cursor: pointer;
 }
 
 .formBtn:hover {
-  background-color: #fff;
+  background-color: #64CCC5;
 }
 
 .judulG {
@@ -145,7 +148,7 @@ textarea{
   font-family: Calligraphy;
   font-size: 50px;
   margin : 5px 0 10px 0;
-  color: #008170;
+  color: #176B87;
 }
 
 .grid-container {
@@ -168,5 +171,5 @@ textarea{
   padding-left: 50%;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
-  color: #008170;
+  color: #739072;
 }
